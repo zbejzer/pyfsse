@@ -7,7 +7,7 @@ requires-python = ">=3.12"
 dependencies = ["pycryptodomex>=3.23.0"]
 
 [project.scripts]
-pyfsse = "pyfsse.main:main"
+pyfsse = "pyfsse.editor:main"
 
 [build-system]
 requires = ["hatchling"]
